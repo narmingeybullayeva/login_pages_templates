@@ -1,3 +1,4 @@
+import LoginIllustration from "../../../components/LoginIllustration"
 
 
 const LoginPage = () => {
@@ -19,7 +20,7 @@ const LoginPage = () => {
 
                     {/* Gradient Overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-red-700/20 to-transparent"></div>
-
+                    <LoginIllustration />
 
                 </div>
 
