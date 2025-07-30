@@ -3,10 +3,12 @@ import { ArrowRight, AlertCircle } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import apiClient from '../../utils/axios';
 import iconMap from '../../icons'
+import { useNavigate } from 'react-router-dom';
 
 
 function HomePage() {
     const [templates, setTemplates] = useState<loginTemplate[]>([])
+    const navigate = useNavigate();
 
     useEffect(() => {
         apiClient.get<loginTemplate[]>("/templates")
@@ -43,12 +45,13 @@ function HomePage() {
                 </div>
 
                 {/* Templates Grid */}
-                <div className="max-w-7xl mx-auto px-6 pb-20">
+                <div className="max-w-7xl mx-auto px-6 py-10">
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
                         {templates.map((template) => (
                             <div
+                                onClick={() => navigate(template.path)}
                                 key={template.id}
-                                className="group relative bg-white/80 backdrop-blur-sm rounded-3xl border border-gray-200/50 hover:border-gray-300/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-gray-900/10 overflow-hidden"
+                                className="cursor-pointer group relative bg-white/80 backdrop-blur-sm rounded-3xl border border-gray-200/50 hover:border-gray-300/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-gray-900/10 overflow-hidden"
                             >
                                 {/* Subtle gradient accent */}
                                 <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-gray-200 via-gray-300 to-gray-200 group-hover:from-green-400 group-hover:via-emerald-500 group-hover:to-teal-600 transition-all duration-500"></div>

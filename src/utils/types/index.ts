@@ -6,4 +6,5 @@ interface loginTemplate {
     iconName: string;
     color: string;
     preview: string;
+    path: string;
 }

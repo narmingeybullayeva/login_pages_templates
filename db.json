@@ -6,7 +6,8 @@
             "description": "Clean glassmorphism design with subtle blur effects and modern aesthetics",
             "iconName": "sparkles",
             "color": "from-green-400 to-emerald-500",
-            "preview": "Preview glassmorphism login with floating elements and backdrop blur"
+            "preview": "Preview glassmorphism login with floating elements and backdrop blur",
+            "path": "/login-1"
         },
         {
             "id": "2",
@@ -14,7 +15,8 @@
             "description": "Professional layout perfect for business applications and enterprise use",
             "iconName": "shield",
             "color": "from-emerald-500 to-teal-600",
-            "preview": "Traditional corporate login with formal styling and brand colors"
+            "preview": "Traditional corporate login with formal styling and brand colors",
+            "path": "/login-2"
         },
         {
             "id": "3",
@@ -22,7 +24,8 @@
             "description": "Bold and colorful design for creative agencies and artistic platforms",
             "iconName": "palette",
             "color": "from-green-400 to-teal-600",
-            "preview": "Vibrant login page with creative elements and dynamic gradients"
+            "preview": "Vibrant login page with creative elements and dynamic gradients",
+            "path": "/login-3"
         },
         {
             "id": "4",
@@ -30,7 +33,8 @@
             "description": "Sophisticated dark theme with elegant contrast and premium feel",
             "iconName": "eye",
             "color": "from-emerald-600 to-teal-700",
-            "preview": "Premium dark login interface with high contrast and modern styling"
+            "preview": "Premium dark login interface with high contrast and modern styling",
+            "path": "/login-4"
         },
         {
             "id": "5",
@@ -38,7 +42,8 @@
             "description": "Security-focused design with strong visual cues for trust and safety",
             "iconName": "lock",
             "color": "from-green-500 to-emerald-600",
-            "preview": "Security-enhanced login with trust indicators and safe design patterns"
+            "preview": "Security-enhanced login with trust indicators and safe design patterns",
+            "path": "/login-5"
         },
         {
             "id": "6",
@@ -46,7 +51,8 @@
             "description": "High-performance template optimized for speed and user experience",
             "iconName": "zap",
             "color": "from-emerald-400 to-teal-500",
-            "preview": "Fast-loading login with optimized animations and smooth interactions"
+            "preview": "Fast-loading login with optimized animations and smooth interactions",
+            "path": "/login-6"
         }
     ]
 }

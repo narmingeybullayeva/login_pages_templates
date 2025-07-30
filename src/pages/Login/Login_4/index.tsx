@@ -289,7 +289,7 @@ function LoginPage() {
                                     <div className="flex items-center justify-center space-x-6 mt-6">
                                         <div className="flex items-center text-sm text-gray-500">
                                             <Shield className="w-4 h-4 mr-2 text-blue-500" />
-                                            HIPAA Compliant
+                                            Data Protection Compliant
                                         </div>
                                         <div className="flex items-center text-sm text-gray-500">
                                             <Users className="w-4 h-4 mr-2 text-red-500" />
@@ -339,7 +339,7 @@ function LoginPage() {
                                                 value={email}
                                                 onChange={(e) => setEmail(e.target.value)}
                                                 className="w-full pl-12 pr-4 py-4 bg-white/70 border border-gray-200 rounded-2xl text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-300 "
-                                                placeholder="doctor@healthcare.com"
+                                                placeholder="Enter your email"
                                                 required
                                             />
                                         </div>

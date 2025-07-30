@@ -340,16 +340,6 @@ function LoginPage() {
                                         )}
                                     </button>
                                 </form>
-
-                                {/* Sign Up Link */}
-                                <div className="text-center mt-8">
-                                    <p className="text-white/70">
-                                        Don't have an account?{' '}
-                                        <button className="text-purple-300 hover:text-purple-200 font-medium transition-colors duration-200">
-                                            Sign up
-                                        </button>
-                                    </p>
-                                </div>
                             </div>
                         </div>
                     </div>
