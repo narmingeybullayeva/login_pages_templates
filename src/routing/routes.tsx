@@ -6,6 +6,7 @@ import LoginPage3 from "../pages/Login/Login_3";
 import LoginPage4 from "../pages/Login/Login_4";
 import LoginPage5 from "../pages/Login/Login_5";
 import Layout from "../Layout";
+import PreviewEmergencyContextPage from "../pages/PreviewEmergencyContext";
 
 
 const router = createBrowserRouter([
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
             { path: "/login-3", element: <LoginPage3 /> },
             { path: "/login-4", element: <LoginPage4 /> },
             { path: "/login-5", element: <LoginPage5 /> },
+            { path: "/preview-emergency", element: <PreviewEmergencyContextPage /> },
             { index: true, element: <HomePage /> },
         ],
     }
