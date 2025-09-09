@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Eye, EyeOff, Mail, Lock, ArrowRight } from 'lucide-react';
+import HomeButton from '../../../components/HomeButton';
 
 function LoginPage() {
     const [showPassword, setShowPassword] = useState(false);
@@ -222,6 +223,7 @@ function LoginPage() {
     return (
         <div className="min-h-screen bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600 relative overflow-hidden">
             {/* Animated background elements */}
+            <HomeButton className="bg-white/20 hover:bg-white/30" />
             <div className="absolute inset-0 overflow-hidden">
                 <div className="absolute -top-10 -left-10 w-40 h-40 bg-white/10 rounded-full blur-xl animate-pulse"></div>
                 <div className="absolute top-1/4 -right-20 w-60 h-60 bg-pink-500/20 rounded-full blur-2xl animate-pulse delay-1000"></div>

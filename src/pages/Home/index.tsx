@@ -104,9 +104,6 @@ function HomePage() {
                 <footer className="bg-gray-50 border-t border-gray-100">
                     <div className="max-w-7xl mx-auto px-6 py-12">
                         <div className="text-center">
-                            <p className="text-gray-500 text-sm">
-                                Crafted with care for developers who value beautiful, functional design
-                            </p>
                             <div className="mt-4 flex items-center justify-center gap-2 text-gray-400">
                                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                                 <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" style={{ animationDelay: '0.2s' }}></div>

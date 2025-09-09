@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Eye, EyeOff, Mail, Lock, ArrowRight, Heart, Shield, Users } from 'lucide-react';
+import HomeButton from '../../../components/HomeButton';
 
 function LoginPage() {
     const [showPassword, setShowPassword] = useState(false);
@@ -13,7 +14,6 @@ function LoginPage() {
         // Simulate login process
         setTimeout(() => {
             setIsLoading(false);
-            console.log('Healthcare login attempted with:', { email, password });
         }, 2000);
     };
 
@@ -255,6 +255,7 @@ function LoginPage() {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 relative overflow-hidden">
+            <HomeButton className=" bg-red-500 hover:bg-red-200 " />
             {/* Healthcare-themed background elements */}
             <div className="absolute inset-0 overflow-hidden">
                 <div className="absolute top-20 left-10 w-32 h-32 bg-blue-100/30 rounded-full blur-xl animate-pulse"></div>

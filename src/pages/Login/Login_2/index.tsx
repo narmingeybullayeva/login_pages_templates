@@ -1,3 +1,4 @@
+import HomeButton from "../../../components/HomeButton"
 import LoginWelcomeMessage from "../../../components/LoginWelcomeMessage"
 
 const LoginPage = () => {
@@ -10,6 +11,7 @@ const LoginPage = () => {
                 {/* Left side - Enhanced Red Gradient with Illustration */}
                 <div className="w-1/2 bg-gradient-to-br from-[#16a2db] via-[#047cab] to-[#014661] flex items-center justify-center relative overflow-hidden">
                     {/* Background Pattern */}
+                    <HomeButton className="bg-white/20 hover:bg-white/30" />
                     <div className="absolute inset-0 opacity-10">
                         <div className="absolute top-10 left-10 w-20 h-20 border border-white/30 rounded-full"></div>
                         <div className="absolute top-32 right-16 w-16 h-16 border border-white/20 rounded-full"></div>
@@ -29,8 +31,8 @@ const LoginPage = () => {
                         <form >
                             <input
 
-                                type="email"
-                                placeholder="Email"
+                                type="text"
+                                placeholder="Username"
                                 className="mt-4 w-full p-3 border-2 border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-[#16a2db] focus:border-[#01506f] transition-colors duration-300"
                             />
 

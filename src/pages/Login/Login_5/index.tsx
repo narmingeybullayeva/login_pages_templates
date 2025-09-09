@@ -3,6 +3,7 @@ import { CompanyBranding } from '../../../components/CompanyBranding';
 import { LoginForm } from '../../../components/LoginForm';
 import { EmergencyContext } from '../../../components/EmergencyContext';
 import { Footer } from '../../../components/Footer';
+import HomeButton from '../../../components/HomeButton';
 
 function LoginPage() {
     const [isLoading, setIsLoading] = useState(false);
@@ -34,6 +35,7 @@ function LoginPage() {
     return (
         <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50">
             <div className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+                <HomeButton className="bg-blue-900/90 hover:bg-blue-900/70" />
                 <div className="max-w-6xl w-full">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
