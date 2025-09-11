@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Eye, EyeOff, Diamond, Lock } from 'lucide-react';
+import { Eye, EyeOff, Lock } from 'lucide-react';
 import HomeButton from '../../../components/HomeButton';
 
 const LoginPage = () => {

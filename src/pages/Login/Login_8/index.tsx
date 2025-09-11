@@ -1,4 +1,4 @@
-import { ArrowRight, Chrome, Github, Lock, Mail, User } from "lucide-react";
+import { ArrowRight, Chrome, Github, Lock, User } from "lucide-react";
 import { useState } from "react";
 import HomeButton from "../../../components/HomeButton";
 

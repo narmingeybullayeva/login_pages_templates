@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Shield, Eye, EyeOff, Mail, Lock, AlertCircle, Dot, Users, User } from 'lucide-react';
+import { Shield, Eye, EyeOff, Lock, AlertCircle, Dot, User } from 'lucide-react';
 import ambulanceBg from '../../../assets/images/bg.png';
 import HomeButton from '../../../components/HomeButton';
 

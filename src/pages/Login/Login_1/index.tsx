@@ -7,12 +7,12 @@ import StarButton from "../../../components/StarButton";
 
 const LoginPage = () => {
 
-    const handleLogin = () => {
-        // Token login və yönləndirmə
-        const token = ""; // Əvvəlcədən yaratdığın token
-        window.location.href = `https:///?token=${token}`;
-        console.log("Token:", token); // Konsola tokeni yazdır
-    };
+    // const handleLogin = () => {
+    //     // Token login və yönləndirmə
+    //     const token = ""; // Əvvəlcədən yaratdığın token
+    //     window.location.href = `https:///?token=${token}`;
+    //     console.log("Token:", token); // Konsola tokeni yazdır
+    // };
 
 
 
@@ -65,7 +65,7 @@ const LoginPage = () => {
                                 Forgot Password?
                             </a>
                         </div>
-                        <button onClick={handleLogin} className="mt-6 w-full bg-gradient-to-r from-[#16a2db] via-[#047cab] to-[#014661] text-white py-3 rounded-md hover:from-[#0c95cb] hover:via-[#047cab] hover:to-[#014661] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                        <button className="mt-6 w-full bg-gradient-to-r from-[#16a2db] via-[#047cab] to-[#014661] text-white py-3 rounded-md hover:from-[#0c95cb] hover:via-[#047cab] hover:to-[#014661] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
                             Login
                         </button>
 
