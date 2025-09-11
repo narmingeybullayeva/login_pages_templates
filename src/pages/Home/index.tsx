@@ -1,4 +1,4 @@
-import { ArrowRight, AlertCircle, Search, Filter, Star, Zap } from 'lucide-react';
+import { ArrowRight, AlertCircle, Search, Filter, Star } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import iconMap from '../../icons';
 import { loginTemplate as LoginTemplate } from '../../utils/types';
