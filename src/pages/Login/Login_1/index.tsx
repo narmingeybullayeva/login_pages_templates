@@ -1,6 +1,8 @@
 
 import LoginIllustration from "../../../components/LoginIllustration"
 import HomeButton from "../../../components/HomeButton";
+import StarButton from "../../../components/StarButton";
+
 
 
 const LoginPage = () => {
@@ -23,6 +25,7 @@ const LoginPage = () => {
                 <div className="w-1/2 bg-gradient-to-br from-[#16a2db] via-[#047cab] to-[#014661] flex items-center justify-center relative overflow-hidden">
                     {/* Background Pattern */}
                     <HomeButton className="bg-white/20 hover:bg-white/30" />
+
                     <div className="absolute inset-0 opacity-10">
                         <div className="absolute top-10 left-10 w-20 h-20 border border-white/30 rounded-full"></div>
                         <div className="absolute top-32 right-16 w-16 h-16 border border-white/20 rounded-full"></div>
@@ -38,6 +41,7 @@ const LoginPage = () => {
 
                 {/* Right side - Login Form with Red Accents */}
                 <div className="w-1/2 flex items-center justify-center bg-gradient-to-br from-white to-red-50/30 p-8 shadow-lg">
+                    <StarButton />
                     <div className="max-w-md w-full">
                         <h2 className="text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#16a2db] to-[#01506f] font-bold mb-6">Login Form</h2>
 

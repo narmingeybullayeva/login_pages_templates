@@ -1,10 +1,11 @@
-interface loginTemplate {
-
-    id: string;
+export interface loginTemplate {
+    id: number;
     title: string;
     description: string;
-    iconName: string;
-    color: string;
     preview: string;
     path: string;
+    iconName: string;
+    color: string;
+    category: string;
+    featured?: boolean;
 }
