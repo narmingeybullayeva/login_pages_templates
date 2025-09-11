@@ -1,4 +1,4 @@
-import { ArrowLeft, Book, Code, Download, HelpCircle, FileText, Settings, Zap } from 'lucide-react';
+import { ArrowLeft, Book, Code, HelpCircle, FileText, Settings, Zap } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 function DocsPage() {
